@@ -1,8 +1,5 @@
 
 
-
-#"C:\Users\nissj\Music\Daft Punk - Adagio for TRON (Remixed by Teddybears).mp3"
-
 try{
     $path = ""
     $test = test-path $path 
