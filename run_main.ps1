@@ -1,13 +1,10 @@
 
 
-
-#"C:\Users\nissj\Music\Daft Punk - Adagio for TRON (Remixed by Teddybears).mp3"
-
 try{
-    $path = ""
+    $path = "d:/pyAudioPlayer"  #path to your music here
     $test = test-path $path 
     if($test){
-        cd d:/pyAudioPlayer
+        cd $path
         python main.py
     }
 }catch{
